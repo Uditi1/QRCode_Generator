@@ -31,5 +31,40 @@ body{
 }
 
 .input{
-  
+  padding: 0.8rem 1rem;
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #595d68;
+  color: #fafafa;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -mox-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+input::placeholder {
+  color: #82868e
+}
+
+img{
+  height: 350px;
+}
+
+.submit {
+  background-color: #57606f;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  -webkit-border-radius: .5rem;
+  -mox-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  color: #fafafa;
+  width: 100%;
+  cursor: pointer
 }
