@@ -20,6 +20,10 @@ const [isloading, setIsLoading] = useState(false)
         />
 
         {isloading && <div className='loading'><span></span>Loading...</div>}
+
+        {!isloading && (qr ? <img className='qr_code' src='qr' alt='qr_code' /> : <div className='loading'>Generate Amazing QR Code for you & your friends!</div>)}
+
+        <input type='submit' className='submit' value="Generate QR Code" />
     </form>
   )
 }
